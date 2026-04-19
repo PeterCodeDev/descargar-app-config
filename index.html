@@ -239,148 +239,102 @@
                 </div>
             </div>
         </section>
-        <section class="py-24 px-8 max-w-7xl mx-auto" id="features">
-            <div class="mb-16 animate-fade-up">
-                <h2 class="text-4xl md:text-5xl font-black font-headline mb-4">DISEÑADO PARA <span
-                        class="text-tertiary drop-shadow-[0_0_15px_rgba(171,214,0,0.3)]">CADA ROL</span></h2>
-                <p class="text-on-surface-variant max-w-2xl text-lg">Una plataforma unificada adaptada exactamente a las
-                    necesidades específicas de administradores, entrenadores y atletas.</p>
+        <section class="py-24 px-8 max-w-7xl mx-auto relative" id="features">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-primary/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
+
+            <div class="mb-16 animate-fade-up text-center flex flex-col items-center">
+                <div class="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-surface-container-high/80 border border-outline-variant/30">
+                    <span class="material-symbols-outlined text-[16px] text-tertiary">bolt</span>
+                    <span class="text-xs font-bold text-on-surface tracking-widest uppercase">Tecnología Core</span>
+                </div>
+                <h2 class="text-4xl md:text-6xl font-black font-headline mb-6 leading-tight">
+                    INGENIERÍA AL SERVICIO <br/>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-tertiary to-primary drop-shadow-[0_0_15px_rgba(171,214,0,0.2)]">DEL ALTO RENDIMIENTO</span>
+                </h2>
+                <p class="text-on-surface-variant max-w-2xl text-lg font-body leading-relaxed">
+                    SportsGO no es solo una app, es un ecosistema tecnológico. Diseñada con arquitectura en la nube y algoritmos de procesamiento en tiempo real para llevar tu entrenamiento al siguiente nivel.
+                </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="roles">
-                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 card-glow animate-fade-up"
-                    style="animation-delay: 0.1s;">
-                    <div
-                        class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-primary/15 group-hover:scale-150 transition-all duration-500">
-                    </div>
-                    <div
-                        class="w-12 h-12 bg-surface-container-highest rounded-lg flex items-center justify-center border border-outline-variant/15 group-hover:border-primary/30 transition-colors">
-                        <span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform"
-                            data-weight="fill">shield_person</span>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold font-headline mb-2">Administrador</h3>
-                        <p class="text-sm text-on-surface-variant leading-relaxed">Visión global. Gestiona cuentas de
-                            forma segura y supervisa las estadísticas de todo el sistema en tiempo real.</p>
-                    </div>
-                    <div
-                        class="mt-auto bg-surface-container-lowest rounded-lg p-4 border border-outline-variant/10 group-hover:border-outline-variant/30 transition-colors">
-                        <div class="flex justify-between items-center mb-3">
-                            <span class="text-xs font-bold text-on-surface uppercase tracking-wider">Usuarios
-                                Activos</span>
-                            <span class="text-tertiary font-bold">1,248</span>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(250px,auto)]">
+                
+                <div class="md:col-span-2 bg-surface-container-low/80 backdrop-blur-md border border-outline-variant/15 rounded-3xl p-8 group hover:bg-surface-container hover:border-primary/30 transition-all duration-500 overflow-hidden relative shadow-ambient animate-fade-up">
+                    <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-primary/20 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700"></div>
+                    
+                    <div class="relative z-10 flex flex-col h-full justify-between">
+                        <div class="w-14 h-14 bg-surface-container-highest rounded-2xl flex items-center justify-center border border-outline-variant/20 mb-6 group-hover:-translate-y-2 transition-transform duration-300 shadow-[0_0_15px_rgba(183,196,255,0.1)]">
+                            <span class="material-symbols-outlined text-3xl text-primary">cloud_sync</span>
                         </div>
-                        <div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
-                            <div
-                                class="bg-tertiary w-[78%] h-full group-hover:w-[85%] transition-all duration-1000 ease-out">
-                            </div>
+                        <div>
+                            <h3 class="text-2xl font-black font-headline mb-3 text-on-surface">Sincronización Cloud Firestore</h3>
+                            <p class="text-on-surface-variant font-body text-base leading-relaxed max-w-md">
+                                Persistencia de datos NoSQL en la nube. Tus rutinas, mensajes del chat y estadísticas se actualizan en milisegundos en todos tus dispositivos gracias a listeners activos en tiempo real. Soporte offline nativo garantizado.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 md:translate-y-8 card-glow animate-fade-up"
-                    style="animation-delay: 0.2s;">
-                    <div
-                        class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-primary/15 group-hover:scale-150 transition-all duration-500">
-                    </div>
-                    <div
-                        class="w-12 h-12 bg-surface-container-highest rounded-lg flex items-center justify-center border border-outline-variant/15 group-hover:border-primary/30 transition-colors">
-                        <span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform"
-                            data-weight="fill">sports</span>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold font-headline mb-2">Entrenador</h3>
-                        <p class="text-sm text-on-surface-variant leading-relaxed">Diseña rutinas precisas. Sigue el
-                            progreso de los alumnos al instante y ajusta los regímenes para obtener resultados óptimos.
-                        </p>
-                    </div>
-                    <div
-                        class="mt-auto bg-surface-container-lowest rounded-lg p-4 border border-outline-variant/10 group-hover:border-outline-variant/30 transition-colors">
-                        <div class="flex flex-col gap-3">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center">
-                                    <span
-                                        class="material-symbols-outlined text-[16px] text-on-surface-variant">fitness_center</span>
-                                </div>
-                                <div class="flex-1">
-                                    <div class="h-2 w-full bg-surface-container-highest rounded-full overflow-hidden">
-                                        <div
-                                            class="h-full w-[0%] bg-primary/60 group-hover:w-full transition-all duration-1000 ease-out delay-100">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center">
-                                    <span
-                                        class="material-symbols-outlined text-[16px] text-on-surface-variant">directions_run</span>
-                                </div>
-                                <div class="flex-1">
-                                    <div class="h-2 w-3/4 bg-surface-container-highest rounded-full overflow-hidden">
-                                        <div
-                                            class="h-full w-[0%] bg-primary/60 group-hover:w-full transition-all duration-1000 ease-out delay-300">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                <div class="bg-surface-container-low/80 backdrop-blur-md border border-outline-variant/15 rounded-3xl p-8 group hover:bg-surface-container hover:border-tertiary/30 transition-all duration-500 overflow-hidden relative shadow-ambient animate-fade-up" style="animation-delay: 0.1s;">
+                    <div class="absolute -right-8 -top-8 w-32 h-32 bg-tertiary/10 rounded-full blur-2xl group-hover:bg-tertiary/20 transition-colors duration-500"></div>
+                    
+                    <div class="relative z-10 flex flex-col h-full justify-between">
+                        <div class="w-12 h-12 bg-surface-container-highest rounded-xl flex items-center justify-center border border-outline-variant/20 mb-6 group-hover:rotate-12 transition-transform duration-300">
+                            <span class="material-symbols-outlined text-2xl text-tertiary">monitor_heart</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold font-headline mb-2">Motor Biométrico</h3>
+                            <p class="text-sm text-on-surface-variant font-body leading-relaxed">
+                                Algoritmos integrados para el cálculo preciso del IMC y métricas de salud. Feedback cromático instantáneo en la UI para evaluar tu estado físico de un vistazo.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 card-glow animate-fade-up"
-                    style="animation-delay: 0.3s;">
-                    <div
-                        class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-primary/15 group-hover:scale-150 transition-all duration-500">
-                    </div>
-                    <div
-                        class="w-12 h-12 bg-surface-container-highest rounded-lg flex items-center justify-center border border-outline-variant/15 group-hover:border-primary/30 transition-colors">
-                        <span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform"
-                            data-weight="fill">person</span>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold font-headline mb-2">Alumno</h3>
-                        <p class="text-sm text-on-surface-variant leading-relaxed">Tu diario de rendimiento personal.
-                            Registra entrenamientos, visualiza tu progreso y conquista tus metas.</p>
-                    </div>
-                    <div
-                        class="mt-auto bg-surface-container-lowest rounded-lg p-4 border border-outline-variant/10 group-hover:border-outline-variant/30 transition-colors">
-                        <div class="flex justify-between items-end h-16">
-                            <div
-                                class="w-4 bg-surface-container-highest rounded-sm h-[30%] group-hover:h-[40%] transition-all duration-300">
+
+                <div class="bg-surface-container-low/80 backdrop-blur-md border border-outline-variant/15 rounded-3xl p-8 group hover:bg-surface-container hover:border-outline-variant/50 transition-all duration-500 overflow-hidden relative shadow-ambient animate-fade-up" style="animation-delay: 0.2s;">
+                    
+                    <div class="relative z-10 flex flex-col h-full justify-between">
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="w-12 h-12 bg-surface-container-highest rounded-xl flex items-center justify-center border border-outline-variant/20 group-hover:scale-110 transition-transform duration-300">
+                                <span class="material-symbols-outlined text-2xl text-on-surface">design_services</span>
                             </div>
-                            <div
-                                class="w-4 bg-surface-container-highest rounded-sm h-[50%] group-hover:h-[60%] transition-all duration-300 delay-75">
+                            <div class="flex gap-1 opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                                <span class="w-2 h-2 rounded-full bg-tertiary animate-pulse" style="animation-delay: 0.2s"></span>
                             </div>
-                            <div
-                                class="w-4 bg-surface-container-highest rounded-sm h-[40%] group-hover:h-[45%] transition-all duration-300 delay-100">
-                            </div>
-                            <div
-                                class="w-4 bg-primary/40 rounded-sm h-[70%] group-hover:h-[80%] transition-all duration-300 delay-150">
-                            </div>
-                            <div
-                                class="w-4 bg-tertiary rounded-sm h-[90%] group-hover:h-[100%] transition-all duration-300 shadow-[0_0_10px_rgba(171,214,0,0.2)]">
-                            </div>
-                            <div
-                                class="w-4 bg-surface-container-highest rounded-sm h-[60%] group-hover:h-[70%] transition-all duration-300 delay-200">
-                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold font-headline mb-2">Kinetic UI Design</h3>
+                            <p class="text-sm text-on-surface-variant font-body leading-relaxed">
+                                Interfaz responsiva basada en Material Design. Contraste táctico de neones oscuros diseñado para máxima legibilidad en entornos de entrenamiento intensivo.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="py-32 px-8 relative overflow-hidden" id="pricing">
-            <div class="absolute inset-0 z-0">
-                <img alt="Fondo de gimnasio" class="w-full h-full object-cover opacity-10 mix-blend-luminosity"
-                    data-alt="Gimnasio SportsGO" src="./gym_background.png" />
-            </div>
-            <div class="max-w-4xl mx-auto relative z-10 text-center flex flex-col items-center animate-fade-up">
-                <h2 class="text-5xl md:text-7xl font-black font-headline mb-6 tracking-tight">¿LISTO PARA EMPEZAR?</h2>
-                <p class="text-xl text-on-surface-variant mb-12 max-w-2xl">Implementa SportsGO hoy y transforma tu
-                    infraestructura de gestión deportiva en un activo de alto rendimiento.</p>
-                <button
-                    class="bg-[#abd600] text-[#131313] font-headline text-xl font-bold px-12 py-5 rounded-md hover:bg-[#c3f400] transition-all hover:scale-[1.02] active:scale-95 flex items-center gap-3 shadow-[0_0_30px_rgba(171,214,0,0.2)] hover:shadow-[0_0_40px_rgba(171,214,0,0.4)]">
-                    <span class="material-symbols-outlined font-variation-settings-'FILL' 1 text-2xl">download</span>
-                    Descargar SportsGO
-                </button>
+
+                <div class="md:col-span-2 bg-gradient-to-br from-[#1c1b1b] to-[#131313] border border-outline-variant/15 rounded-3xl p-8 group hover:border-tertiary/40 transition-all duration-500 overflow-hidden relative shadow-ambient animate-fade-up" style="animation-delay: 0.3s;">
+                    <div class="absolute right-0 bottom-0 w-1/2 h-full opacity-10 group-hover:opacity-30 transition-opacity duration-500 pointer-events-none flex items-end justify-around pb-4 px-4">
+                        <div class="w-6 bg-tertiary h-[30%] rounded-t-sm group-hover:h-[60%] transition-all duration-700 ease-out"></div>
+                        <div class="w-6 bg-tertiary h-[50%] rounded-t-sm group-hover:h-[80%] transition-all duration-700 ease-out delay-75"></div>
+                        <div class="w-6 bg-primary h-[40%] rounded-t-sm group-hover:h-[100%] transition-all duration-700 ease-out delay-150"></div>
+                    </div>
+
+                    <div class="relative z-10 flex flex-col h-full justify-between md:w-2/3">
+                        <div class="w-14 h-14 bg-tertiary/10 rounded-2xl flex items-center justify-center border border-tertiary/30 mb-6 group-hover:shadow-[0_0_20px_rgba(171,214,0,0.3)] transition-all duration-300">
+                            <span class="material-symbols-outlined text-3xl text-tertiary">psychology</span>
+                        </div>
+                        <div>
+                            <div class="inline-flex items-center gap-2 mb-3">
+                                <h3 class="text-2xl font-black font-headline text-on-surface">Smart Analytics & IA</h3>
+                                <span class="bg-primary/20 text-primary text-[10px] font-bold px-2 py-1 rounded-md uppercase tracking-wider">Próximamente</span>
+                            </div>
+                            <p class="text-on-surface-variant font-body text-base leading-relaxed">
+                                Preparado para el futuro con análisis predictivo. Procesamiento de datos masivos para generar alertas tempranas de sobreentrenamiento y asistencia automatizada para la corrección técnica.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>

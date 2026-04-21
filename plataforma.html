@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="dark scroll-smooth" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SportsGO - Plataforma</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="antialiased">
+    <nav class="fixed top-0 w-full z-50 bg-[#131313]/80 backdrop-blur-xl border-b border-white/5 left-0 right-0">
+        <div class="w-full max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-8">
+                <a class="text-2xl font-black italic tracking-tighter text-[#b7c4ff] hover:opacity-80 transition-opacity"
+                    href="index.html">SPORTSGO</a>
+                <div class="hidden md:flex gap-6 font-['Inter'] uppercase tracking-widest text-sm font-bold">
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="caracteristicas.html">Características</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="plataforma.html">Plataforma</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="guias.html">Guías</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="precios.html">Precios</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <button
+                    class="bg-[#abd600] text-[#131313] font-['Inter'] uppercase tracking-widest text-sm font-bold px-6 py-2 rounded-md hover:bg-[#c3f400] transition-all duration-300 scale-95 active:scale-90 transition-transform flex items-center gap-2 hover-glow">
+                    DESCARGAR
+                </button>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-24">
+        <section class="relative min-h-[921px] flex items-center px-8 py-20 overflow-hidden" id="architecture">
+            <div class="absolute inset-0 z-0">
+                <img alt="Hero background" class="w-full h-full object-cover opacity-20 mix-blend-luminosity"
+                    data-alt="Logo de SportsGO con colores de neón" src="./sportgo_logo.jpg" />
+                <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/80 to-transparent"></div>
+            </div>
+            <div class="max-w-7xl mx-auto w-full relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col items-start gap-8 animate-slide-in">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-high/50 border border-outline-variant/15 backdrop-blur-md hover:border-[#abd600]/30 transition-colors cursor-default">
+                        <span class="w-2 h-2 rounded-full bg-tertiary animate-pulse shadow-[0_0_8px_#abd600]"></span>
+                        <span class="text-sm font-bold text-on-surface tracking-wider uppercase">Plataforma
+                            SportsGO</span>
+                    </div>
+                    <h1 class="text-5xl md:text-7xl font-black font-headline leading-[1.1] tracking-tight">
+                        ELEVA TU <br />
+                        <span class="text-gradient-primary">RENDIMIENTO DEPORTIVO</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-on-surface-variant font-body max-w-lg leading-relaxed">
+                        Gestión de precisión para atletas de alto rendimiento. Optimiza rutinas, realiza un seguimiento
+                        de tu progreso en tiempo real y domina tu disciplina con nuestras herramientas avanzadas.
+                    </p>
+                    <button
+                        class="bg-[#abd600] text-[#131313] font-headline text-lg font-bold px-8 py-4 rounded-md hover:bg-[#c3f400] transition-all duration-300 flex items-center gap-3 mt-4 group hover-glow hover:scale-[1.02] active:scale-95">
+                        <span
+                            class="material-symbols-outlined font-variation-settings-'FILL' 1 group-hover:-translate-y-1 transition-transform">download</span>
+                        Descargar APK
+                    </button>
+                </div>
+                <div class="relative hidden md:block animate-fade-up">
+                    <div class="absolute -right-12 top-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-primary-container/10 rounded-full blur-[120px] -z-10 animate-pulse"
+                        style="animation-duration: 4s;"></div>
+                    <div
+                        class="bg-surface-container-low rounded-xl p-6 border border-outline-variant/15 shadow-ambient rotate-3 hover:rotate-0 transition-all duration-500 hover:shadow-[0_20px_64px_rgba(183,196,255,0.1)] card-glow cursor-pointer">
+                        <div class="flex justify-between items-center mb-6">
+                            <h3 class="font-headline font-bold text-xl">Rendimiento</h3>
+                            <span class="material-symbols-outlined text-tertiary">monitoring</span>
+                        </div>
+                        <div class="h-48 flex items-end gap-2 group">
+                            <div
+                                class="w-full bg-surface-container-highest rounded-t-sm h-[40%] transition-all duration-300 group-hover:bg-surface-bright">
+                            </div>
+                            <div
+                                class="w-full bg-surface-container-highest rounded-t-sm h-[60%] transition-all duration-300 group-hover:bg-surface-bright">
+                            </div>
+                            <div
+                                class="w-full bg-surface-container-highest rounded-t-sm h-[45%] transition-all duration-300 group-hover:bg-surface-bright">
+                            </div>
+                            <div
+                                class="w-full bg-primary/40 rounded-t-sm h-[80%] relative transition-all duration-300 group-hover:bg-primary/60 hover:h-[85%] cursor-pointer">
+                                <div
+                                    class="absolute -top-8 left-1/2 -translate-x-1/2 bg-tertiary-container text-on-tertiary-container text-xs font-bold px-2 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                    +12%</div>
+                            </div>
+                            <div
+                                class="w-full bg-surface-container-highest rounded-t-sm h-[65%] transition-all duration-300 group-hover:bg-surface-bright">
+                            </div>
+                            <div
+                                class="w-full bg-surface-container-highest rounded-t-sm h-[50%] transition-all duration-300 group-hover:bg-surface-bright">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer
+        class="w-full py-12 px-8 border-t border-[#434656]/15 bg-[#131313] tonal-transition surface-container-low flat flex flex-col md:flex-row justify-between items-center gap-6">
+        <div
+            class="text-lg font-black text-[#e5e2e1] font-['Inter'] italic hover:text-[#b7c4ff] transition-colors cursor-pointer">
+            SPORTSGO</div>
+        <div class="flex flex-wrap justify-center gap-6 font-['Manrope'] text-xs tracking-normal">
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Política de Privacidad</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Términos de Servicio</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Documentación API</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Soporte</a>
+        </div>
+        <div
+            class="font-['Manrope'] text-xs tracking-normal text-[#b7c4ff] opacity-80 hover:opacity-100 transition-opacity">
+            © 2024 SPORTSGO. TODOS LOS DERECHOS RESERVADOS.
+        </div>
+    </footer>
+</body>
+
+</html>

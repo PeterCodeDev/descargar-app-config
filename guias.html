@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="dark scroll-smooth" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SportsGO - Guías</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="antialiased">
+    <nav class="fixed top-0 w-full z-50 bg-[#131313]/80 backdrop-blur-xl border-b border-white/5 left-0 right-0">
+        <div class="w-full max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-8">
+                <a class="text-2xl font-black italic tracking-tighter text-[#b7c4ff] hover:opacity-80 transition-opacity"
+                    href="index.html">SPORTSGO</a>
+                <div class="hidden md:flex gap-6 font-['Inter'] uppercase tracking-widest text-sm font-bold">
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="caracteristicas.html">Características</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="plataforma.html">Plataforma</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="guias.html">Guías</a>
+                    <a class="text-[#e5e2e1] hover:text-[#b7c4ff] hover:bg-[#353534]/50 transition-all duration-300 scale-95 active:scale-90 transition-transform px-2 py-1 rounded"
+                        href="precios.html">Precios</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <button
+                    class="bg-[#abd600] text-[#131313] font-['Inter'] uppercase tracking-widest text-sm font-bold px-6 py-2 rounded-md hover:bg-[#c3f400] transition-all duration-300 scale-95 active:scale-90 transition-transform flex items-center gap-2 hover-glow">
+                    DESCARGAR
+                </button>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-24">
+        <section class="py-24 px-8 max-w-7xl mx-auto" id="roles">
+            <div class="mb-16 animate-fade-up">
+                <h2 class="text-4xl md:text-5xl font-black font-headline mb-4">GUÍAS DE USUARIO</h2>
+                <p class="text-on-surface-variant max-w-2xl text-lg">Aprende a sacar el máximo partido a SportsGO seas administrador, entrenador o atleta.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Guía Administrador -->
+                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 card-glow animate-fade-up" style="animation-delay: 0.1s;">
+                    <h3 class="text-2xl font-bold font-headline mb-2">Guía para Administradores</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Aprende a gestionar tu organización, desde la configuración inicial hasta la supervisión del rendimiento del equipo. Gestiona usuarios, roles y accede a análisis detallados para tomar decisiones informadas.</p>
+                    <a href="#" class="mt-auto text-[#abd600] font-bold hover:underline">Leer más</a>
+                </div>
+                <!-- Guía Entrenador -->
+                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 md:translate-y-8 card-glow animate-fade-up" style="animation-delay: 0.2s;">
+                    <h3 class="text-2xl font-bold font-headline mb-2">Guía para Entrenadores</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Descubre cómo crear planes de entrenamiento personalizados, monitorizar el progreso de tus atletas en tiempo real y comunicarte de forma efectiva. Optimiza el rendimiento de tu equipo con nuestras herramientas avanzadas.</p>
+                    <a href="#" class="mt-auto text-[#abd600] font-bold hover:underline">Leer más</a>
+                </div>
+                <!-- Guía Alumno -->
+                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden group hover:bg-surface-container transition-all duration-300 card-glow animate-fade-up" style="animation-delay: 0.3s;">
+                    <h3 class="text-2xl font-bold font-headline mb-2">Guía para Atletas</h3>
+                    <p class="text-sm text-on-surface-variant leading-relaxed">Saca el máximo partido a tu entrenamiento. Aprende a registrar tus actividades, seguir tu progreso, analizar tus métricas de rendimiento y conectar con tu entrenador para alcanzar tus metas más rápido.</p>
+                    <a href="#" class="mt-auto text-[#abd600] font-bold hover:underline">Leer más</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer
+        class="w-full py-12 px-8 border-t border-[#434656]/15 bg-[#131313] tonal-transition surface-container-low flat flex flex-col md:flex-row justify-between items-center gap-6">
+        <div
+            class="text-lg font-black text-[#e5e2e1] font-['Inter'] italic hover:text-[#b7c4ff] transition-colors cursor-pointer">
+            SPORTSGO</div>
+        <div class="flex flex-wrap justify-center gap-6 font-['Manrope'] text-xs tracking-normal">
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Política de Privacidad</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Términos de Servicio</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Documentación API</a>
+            <a class="text-[#919090] hover:text-[#abd600] transition-colors" href="#">Soporte</a>
+        </div>
+        <div
+            class="font-['Manrope'] text-xs tracking-normal text-[#b7c4ff] opacity-80 hover:opacity-100 transition-opacity">
+            © 2024 SPORTSGO. TODOS LOS DERECHOS RESERVADOS.
+        </div>
+    </footer>
+</body>
+
+</html>
